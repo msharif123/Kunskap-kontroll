@@ -1,0 +1,45 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+
+#kunskap{
+    background-color: burlywood;
+    text-align: center;
+
+}
+
+
+#name{
+    background-color: white;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+   
+}
+#phone{
+    
+    background-color: white;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 0 auto;
+   text-align: center;
+ 
+}
+#createBtn{
+
+    background-color: burlywood;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    
+}
+.kontaktlist{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
