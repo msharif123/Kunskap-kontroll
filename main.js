@@ -47,7 +47,7 @@
         
                   // list items  for name and phone // 
         
-                  const listItem= document.createElement ("list")
+                  const listItem= document.createElement ("li")
                   const nameInput= document.createElement("input")
                   nameInput.type= "text"
                   nameInput.value= name
@@ -95,11 +95,12 @@
                   raderaKnapp.addEventListener("click", function(){
                     listItem.remove()
                   })
+                
      
                  
                   
-                  listItem.appendChild(nameInput)
-                  listItem.appendChild(phoneInput)
+                  listItem.appendChild(nameInput) 
+                  listItem.appendChild(phoneInput).style.fontSize=LargestContentfulPaint
                   listItem.appendChild(ändraKnapp)
                   listItem.appendChild(raderaKnapp)
         

@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color:whitesmoke;
 }
 
 
@@ -12,20 +12,22 @@ body{
 
 
 #name{
-    background-color: white;
+    
     border: 2px solid black;
     margin: 0 auto;
     padding: 0 auto;
     text-align: center;
    
+   
 }
 #phone{
     
-    background-color: white;
+    
     border: 2px solid black;
     margin: 0 auto;
     padding: 0 auto;
    text-align: center;
+   
  
 }
 #createBtn{
