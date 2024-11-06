@@ -99,10 +99,10 @@
      
                  
                   
-                  listItem.appendChild(nameInput) 
-                  listItem.appendChild(phoneInput).style.fontSize=LargestContentfulPaint
-                  listItem.appendChild(ändraKnapp)
-                  listItem.appendChild(raderaKnapp)
+                  listItem.appendChild(nameInput).style.fontSize="20px"
+                  listItem.appendChild(phoneInput).style.fontSize="20px"
+                  listItem.appendChild(ändraKnapp).style.fontSize="20px"
+                  listItem.appendChild(raderaKnapp).style.fontSize="20px"
         
                   document.getElementById("contact").querySelector("ul").appendChild(listItem)
                   document.getElementById("name").value= " "
