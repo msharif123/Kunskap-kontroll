@@ -9,6 +9,8 @@
             //error message//
             const errorMessage=document.getElementById("error-message")
             errorMessage.style.display="none"
+            errorMessage.style.color="red"
+            errorMessage.style.fontSize="20px"
             errorMessage.innerText =""
         
         
