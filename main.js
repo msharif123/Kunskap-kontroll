@@ -7,9 +7,9 @@
             const phone= document.getElementById("phone").value
         
             //error message//
-            const errorMessagge=document.getElementById("error-message")
-            errorMessagge.style.display="none"
-            errorMessagge.innerText =""
+            const errorMessage=document.getElementById("error-message")
+            errorMessage.style.display="none"
+            errorMessage.innerText =""
         
         
         
@@ -22,23 +22,23 @@
         
         
         
-            if (name ==="" && phone=== ""){
+            if (name === "" && phone === ""){
         
-                errorMessagge.innerText= "Please Enter your Name and your Phone number"
-                errorMessagge.style.display = "block"
+                errorMessage.innerText= "Please Enter your Name and your Phone number"
+                errorMessage.style.display = "block"
                 return
                 
             }
-            else if (name ===""){
-                errorMessagge.innerText= "Please Enter your Name"
-                errorMessagge.style.display= "block"
+            else if (name === ""){
+                errorMessage.innerText= "Please Enter your Name"
+                errorMessage.style.display= "block"
                 return
-        
+               
             }
         
             else if (phone === ""){
-                errorMessagge.innerText= "Please Enter your Phone number"
-                errorMessagge.style.display= "block"
+                errorMessage.innerText= "Please Enter your Phone number"
+                errorMessage.style.display= "block"
                 return
         
             } 
@@ -105,7 +105,7 @@
                   listItem.appendChild(raderaKnapp).style.fontSize="20px"
         
                   document.getElementById("contact").querySelector("ul").appendChild(listItem)
-                  document.getElementById("name").value= " "
+                  document.getElementById("name").value= "" 
                   document.getElementById("phone").value= ""
   
                 })
