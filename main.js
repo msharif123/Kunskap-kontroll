@@ -8,7 +8,7 @@
         
             //error message//
             const errorMessage=document.getElementById("error-message")
-            errorMessage.style.display="none"
+            errorMessage.style.display=
             errorMessage.style.color="red"
             errorMessage.style.fontSize="20px"
             errorMessage.innerText =""
@@ -26,20 +26,20 @@
         
             if (name === "" && phone === ""){
         
-                errorMessage.innerText= "Please Enter your Name and your Phone number"
+                errorMessage.innerText= "Please Enter your Name and your Phone number !"
                 errorMessage.style.display = "block"
                 return
                 
             }
             else if (name === ""){
-                errorMessage.innerText= "Please Enter your Name"
+                errorMessage.innerText= "Please Enter your Name !"
                 errorMessage.style.display= "block"
                 return
                
             }
         
             else if (phone === ""){
-                errorMessage.innerText= "Please Enter your Phone number"
+                errorMessage.innerText= "Please Enter your Phone number !"
                 errorMessage.style.display= "block"
                 return
         
