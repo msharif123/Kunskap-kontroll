@@ -112,7 +112,9 @@
   
                 })
         
-        
+                document.getElementById("raderaList").addEventListener("click", function(){
+                  contact.remove()
+                })
         
         
         
