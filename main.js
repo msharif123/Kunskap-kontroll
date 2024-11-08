@@ -111,7 +111,11 @@
                   document.getElementById("phone").value= ""
   
                 })
-        
+
+
+
+
+                // RaderaList// when you clik RaderaList all list will desapear 
                 document.getElementById("raderaList").addEventListener("click", function(){
                   contact.remove()
                 })
